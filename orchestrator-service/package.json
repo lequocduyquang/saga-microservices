@@ -1,0 +1,20 @@
+{
+  "name": "orchestrator-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "kafkajs": "^1.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
